@@ -4,7 +4,7 @@ Donate link: http://www.amazon.com/gp/product/1456336584?ie=UTF8&tag=thenewjt30p
 Requires at least: 2.8
 Tested up to: 3.3
 Contributors: Keith Graham
-Stable tag: 1.0
+Stable tag: 1.1
 
 Feed Ads will randomly insert text at the end of rss entries. Useful for ads, taglines, news, or links.
 
@@ -26,6 +26,9 @@ The plugin allows for different messages. The random factor can be adjusted so t
 
 = 1.0 =
 * initial release 
+
+= 1.1 =
+* Small bug fix in setting a callback function. Did not effect the way the plugin worked, but it showed errors on the admin page.
 
 
 == Support ==

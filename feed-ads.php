@@ -2,7 +2,7 @@
 /*
 Plugin Name: Feed Ads Plugin
 Description: Places text randomly at the end of feed content and excerpts. Used to add advertising, or other messages randomly to feed entries.
-Version: 1.0
+Version: 1.1
 Author: Keith P. Graham
 Author URI: http://www.BlogsEye.com/
 Requires at least: 2.8
@@ -178,7 +178,6 @@ function kpg_insertAds_init() {
 }
   // Plugin added to Wordpress plugin architecture
 	add_action('admin_menu', 'kpg_insertAds_init');	
-	add_action( 'wp_footer', 'kpg_insertAds_fixup' );
 // uninstall
 function kpg_insertAds_uninstall() {
 	if(!current_user_can('manage_options')) {
